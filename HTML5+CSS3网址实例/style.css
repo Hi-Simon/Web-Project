@@ -46,6 +46,7 @@ li {
     color: #00a4ff;
 }
 .search {
+
     float: left;
     width: 439px;
     margin-left: 80px;
@@ -212,6 +213,7 @@ li {
     overflow: hidden;
 }
 .box .box-bd ul li {
+    position: relative;
     float: left;
     width: 228px;
     height: 270px;
@@ -223,10 +225,15 @@ li {
     display: block;
     height: 100%;
 }
+.box .box-bd ul li em{
+    position: absolute;
+    top: 4px;
+    right: -12px;
+}
 .box .box-bd ul li a:hover {
     box-shadow: 0 2px 3px 3px rgba(0, 0, 0, 0.1);
 }
-.box .box-bd ul li img{
+.box .box-bd ul li>img{
     width: 100%;
 }
 .box .box-bd ul li h4{
